@@ -26,6 +26,9 @@ builds:
       - linux_arm64
       - windows_amd64
 
+changelog:
+  use: git
+
 checksum:
   name_template: "{{ .ProjectName }}_{{ .Version }}_sha512-checksums.txt"
   algorithm: sha512
@@ -36,4 +39,3 @@ archives:
     files:
       - LICENSE
       - README.md
-      - CHANGELOG.md
