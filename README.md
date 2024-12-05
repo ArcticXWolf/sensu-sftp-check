@@ -1,7 +1,7 @@
 
-[![Bonsai Asset Badge](https://img.shields.io/badge/Bonsai-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/ArcticXWolf/sensu-check-kubernetes)
+[![Bonsai Asset Badge](https://img.shields.io/badge/Bonsai-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/ArcticXWolf/sensu-sftp-check)
 
-# Sensu Go Teams Handler
+# Sensu Go SFTP Check
 
 - [Overview](#overview)
 - [Usage examples](#usage-examples)
@@ -38,10 +38,10 @@ TODO
 
 ## Installation from source and contributing
 
-The preferred way of installing and deploying this plugin is to use it as an [asset][2]. If you would like to compile and install the plugin from source or contribute to it, download the latest version of the sensu-check-kubernetes from [releases][1]
+The preferred way of installing and deploying this plugin is to use it as an [asset][2]. If you would like to compile and install the plugin from source or contribute to it, download the latest version of the sensu-sftp-check from [releases][1]
 or create an executable script from this source.
 
-From the local path of the sensu-check-kubernetes repository:
+From the local path of the sensu-sftp-check repository:
 
 ```
 go build -o /usr/local/bin/sensu-sftp-check cmd/sensu-sftp-check/main.go
